@@ -1,0 +1,25 @@
+stringtemplate4 (4.0.8-2.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 12:08:54 +0100
+
+stringtemplate4 (4.0.8-2) unstable; urgency=medium
+
+  * Rebuild with antlr3 3.5.2-2 to depend on libantlr3-runtime-java
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Fri, 31 Jul 2015 13:26:12 +0200
+
+stringtemplate4 (4.0.8-1) unstable; urgency=medium
+
+  * New upstream release
+    - Depend on antlr3 >= 3.5.2
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Tue, 21 Jul 2015 20:15:52 +0200
+
+stringtemplate4 (4.0.6-1) unstable; urgency=medium
+
+  * Initial release (Closes: #792948)
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Mon, 20 Jul 2015 15:15:41 +0200

@@ -1,0 +1,31 @@
+Source: stringtemplate4
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: antlr3 (>= 3.5.2),
+               antlr3-maven-plugin (>= 3.5.2),
+               cdbs,
+               debhelper (>= 9),
+               default-jdk,
+               junit4,
+               maven-debian-helper (>= 1.5)
+Standards-Version: 3.9.6
+Vcs-Git: git://anonscm.debian.org/pkg-java/stringtemplate4.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/stringtemplate4.git
+Homepage: http://www.stringtemplate.org
+
+Package: libstringtemplate4-java
+Architecture: all
+Depends: ${maven:Depends}, ${misc:Depends}
+Suggests: ${maven:OptionalDepends}
+Description: StringTemplate templating engine for Java
+ StringTemplate is a Java template engine for generating source code,
+ web pages, emails, or any other formatted text output. StringTemplate
+ is particularly good at multi-targeted code generators, multiple site
+ skins, and internationalization/localization.
+ .
+ Its distinguishing characteristic is that unlike other engines,
+ it strictly enforces model-view separation. Strict separation makes websites
+ and code generators more flexible and maintainable; it also provides
+ an excellent defense against malicious template authors.

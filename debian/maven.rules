@@ -1,0 +1,7 @@
+
+junit junit jar s/4\..*/4.x/ * *
+org.antlr ST4 jar s/.*/debian/ * *
+org.antlr antlr-master * s/3\..*/3.x/ * *
+org.antlr antlr-runtime * s/3\..*/3.x/ * *
+org.antlr antlr * s/3\..*/3.x/ * *
+org.antlr gunit * s/3\..*/3.x/ * *
